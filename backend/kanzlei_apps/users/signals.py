@@ -2,6 +2,7 @@
 from django.contrib.auth.models import Group, Permission
 from django.db.models.signals import post_save
 from django.dispatch import receiver
+from django.apps import AppConfig
 from .models import User
 
 @receiver(post_save, sender=User)
@@ -22,11 +23,11 @@ def assign_user_group(sender, instance, created, **kwargs):
         # Füge den User der Gruppe hinzu
         instance.groups.add(group)
 # from django.apps import AppConfig
-# class UsersConfig(AppConfig):
-#     name = 'users'
-#     def ready(self):
-#         import users.signals
-#         self.register_signals()
+class UsersConfig(AppConfig):
+    name = 'users'
+    def ready(self):
+        import users.signals
+        self.register_signals()
 # This signal listens for the creation of a User instance and assigns the user to a group based on their role.
 # The role is expected to be a string that matches the name of a group.
 # Ensure that the groups exist in your database before using this signal.
