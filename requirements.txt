@@ -1,0 +1,12 @@
+Django>=5.0,<6.0
+django-browser-reload
+djangorestframework
+djangorestframework-simplejwt
+django-cors-headers
+mysqlclient
+gunicorn
+sqlparse
+Pillow
+phonenumbers
+qrcode
+Werkzeug

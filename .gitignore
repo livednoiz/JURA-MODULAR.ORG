@@ -1,0 +1,52 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django stuff:
+*.log
+db.sqlite3
+db.sqlite3-journal
+
+# If using MySQL/MariaDB
+*.pid
+*.sql
+*.sqlite3
+nam_db
+
+# Static files
+/static/
+staticfiles/
+
+# Media files
+/media/
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# VS Code settings
+.vscode/
+
+# IDE files
+*.idea/
+*.swp
+
+# Node.js (optional, if you have npm dependencies)
+node_modules/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Secrets and environment files
+.env
+*.env
+
+# Pytest cache
+.pytest_cache/
+
+# Migrations
+**/migrations/*.py
+!**/migrations/__init__.py
