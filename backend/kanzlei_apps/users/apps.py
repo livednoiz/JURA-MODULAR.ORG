@@ -9,5 +9,4 @@ class UsersConfig(AppConfig):
     def ready(self):
         # Import signals or other startup code here if needed
         import kanzlei_apps.users.signals
-        pass
 #
