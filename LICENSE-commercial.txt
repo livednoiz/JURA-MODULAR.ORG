@@ -1,0 +1,43 @@
+MIT KOMMERZIELLER LIZENZVEREINBARUNG
+
+Copyright (c) [2025] [Sascha Gebel / Blackenter - Digital Services]
+
+Diese Software darf ausschließlich mit vorheriger schriftlicher Genehmigung des Lizenzgebers für kommerzielle Zwecke verwendet werden. Eine kommerzielle Nutzung umfasst, ist aber nicht beschränkt auf: die Nutzung in Produkten oder Dienstleistungen, die verkauft werden oder Einnahmen generieren.
+
+1. Nutzungslizenz
+Die Software darf zu Test-, Entwicklungs- und Evaluierungszwecken kostenlos verwendet werden. Jegliche Nutzung in einem kommerziellen Kontext bedarf einer gültigen kommerziellen Lizenz.
+
+2. Weiterverbreitung
+Ohne kommerzielle Lizenz ist das Weiterverbreiten, Verkaufen oder Lizenzieren untersagt.
+
+3. Keine Garantie
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIEN, AUSDRÜCKLICH ODER STILLSCHWEIGEND.
+
+4. Haftungsbeschränkung
+Der Lizenzgeber haftet nicht für Schäden oder Verluste, die durch die Nutzung dieser Software entstehen.
+
+5. Lizenz erwerben
+Bitte kontaktieren Sie [deine E-Mail-Adresse oder Website], um eine kommerzielle Lizenz zu erwerben.
+
+------------------------------------------------------------
+
+COMMERCIAL LICENSE AGREEMENT
+
+Copyright (c) [2025] [Sascha Gebel / Blackenter - Digital Services]
+
+This software may only be used for commercial purposes with prior written permission from the licensor. Commercial use includes, but is not limited to: use in products or services that are sold or generate revenue.
+
+1. License of Use
+The software may be used for free for testing, development, and evaluation purposes only. Any use in a commercial context requires a valid commercial license.
+
+2. Redistribution
+Without a commercial license, redistribution, sale, or sublicensing is prohibited.
+
+3. No Warranty
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED.
+
+4. Limitation of Liability
+The licensor shall not be held liable for any damage or loss resulting from the use of this software.
+
+5. Obtain a License
+Please contact [your email address or website] to obtain a commercial license.
