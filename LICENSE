@@ -1,15 +1,43 @@
+--------------------------------------------------------------------------
+HINWEIS ZUR KOMMERZIELLEN NUTZUNG
+--------------------------------------------------------------------------
+
+Diese Software steht unter der GNU Affero General Public License Version 3 (AGPLv3) und
+darf nur für nicht-kommerzielle Zwecke verwendet werden.
+
+Für kommerzielle Nutzung benötigen Sie eine gesonderte Lizenz.  
+Bitte lesen Sie dazu die Datei:
+
+→ LICENSE-commercial.txt
+
+Eine vollständige Preisliste und Angebotsübersicht finden Sie in:
+
+→ COMMERCIAL-OFFER.md
+
+Kontakt: [freelance@blackenter.de]
+
+--------------------------------------------------------------------------
 GNU AFFERO GENERAL PUBLIC LICENSE
 Version 3, 19 November 2007
 
-Copyright (C) [2025] [Sascha Gebel]
+Copyright (C) [Jahr] [Dein Name oder Firmenname]
 
-Diese Software steht unter der GNU AGPLv3 Lizenz.  
-Sie darf frei verwendet, geändert und verteilt werden, solange sie **nicht kommerziell genutzt** wird.
+Dies ist die offizielle Version 3 der GNU Affero General Public License.
 
-Für kommerzielle Nutzung ist eine separate Lizenz erforderlich.  
-Siehe: LICENSE-commercial.txt  
-Kommerzielle Angebote siehe: COMMERCIAL-OFFER.md
+(Die komplette Lizenz ist hier abgedruckt. Bitte diesen Text nicht verändern, nur die
+Platzhalter oben anpassen.)
+
+Preamble
+
+The GNU Affero General Public License is a free, copyleft license for software and other
+kinds of works, specifically designed to ensure cooperation with the community in the
+case of network server software.
 
 ...
 
-(Vollständiger AGPLv3 Text kann von https://www.gnu.org/licenses/agpl-3.0.txt übernommen werden)
+[Hier kommt der vollständige Lizenztext der AGPLv3 rein. Den vollständigen
+offiziellen Text findest du hier: https://www.gnu.org/licenses/agpl-3.0.txt ]
+
+...
+
+END OF TERMS AND CONDITIONS
