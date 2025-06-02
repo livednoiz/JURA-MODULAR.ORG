@@ -103,7 +103,11 @@ Jura Modular soll langfristig als Open-Source-Plattform wachsen – mit Erweiter
 
 ## 📜 Lizenz
 
-MIT License – siehe `LICENSE`-Datei.
+Dieses Projekt verwendet eine [AGPLv3-Lizenz](./LICENSE) für nicht-kommerzielle Nutzung.
+
+📌 Für kommerzielle Nutzung:
+- Lizenzvereinbarung: [LICENSE-commercial.txt](./LICENSE-commercial.txt)
+- Preisübersicht & Leistungen: [COMMERCIAL-OFFER.md](./COMMERCIAL-OFFER.md)
 
 ---
 
