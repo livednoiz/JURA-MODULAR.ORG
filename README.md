@@ -89,7 +89,7 @@ ng serve
 
 ## 👥 Mitwirkende
 
-* 🧑‍💻 Projektleitung & Backend: \[Dein Name / Alias]
+* 🧑‍💻 Projektleitung & Backend: \[Sascha Gebel / livednoiz]
 * 🎨 Frontend & UI: \[optional]
 * 📘 Dokumentation: \[optional]
 
