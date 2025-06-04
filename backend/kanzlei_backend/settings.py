@@ -27,7 +27,11 @@ SECRET_KEY = 'django-insecure--ad4&@lbfx%lqai=nkus&pgf8wh(wp7p*odqc1gfr%1jk5zws7
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'localhost',
+    '127.0.0.1',
+    '0.0.0.0'
+]
 
 
 # Application definition
@@ -174,34 +178,26 @@ CACHES = {
 }
 
 # Security settings
-SECURE_BROWSER_XSS_FILTER = True
-SECURE_CONTENT_TYPE_NOSNIFF = True
-SECURE_HSTS_SECONDS = 3600              # Enable HTTP Strict Transport Security for 1 hour
-SECURE_HSTS_INCLUDE_SUBDOMAINS = True   # Include subdomains in HSTS
-SECURE_HSTS_PRELOAD = True              # Preload HSTS for browsers
-SECURE_SSL_REDIRECT = True              # Redirect all HTTP requests to HTTPS
+# SECURE_BROWSER_XSS_FILTER = True
+# SECURE_CONTENT_TYPE_NOSNIFF = True
+# SECURE_HSTS_SECONDS = 3600              # Enable HTTP Strict Transport Security for 1 hour
+# SECURE_HSTS_INCLUDE_SUBDOMAINS = True   # Include subdomains in HSTS
+# SECURE_HSTS_PRELOAD = True              # Preload HSTS for browsers
+# SECURE_SSL_REDIRECT = True              # Redirect all HTTP requests to HTTPS
 
 # Session settings
-SESSION_COOKIE_SECURE = True            # Use secure cookies for sessions
-SESSION_COOKIE_SAMESITE = 'Lax'         # Adjust as needed for your application
+# SESSION_COOKIE_SECURE = True            # Use secure cookies for sessions
+# SESSION_COOKIE_SAMESITE = 'Lax'         # Adjust as needed for your application
 
 # CORS settings
-CORS_ALLOWED_ORIGINS = [
-    'http://localhost:3000',            # Adjust this to your frontend URL
-    "http://localhost:4200",            # Angular app running on localhost
-    "https://api.ra-gaussmann.de",      # API kanzlei domain
-    "https://app.ra-gaussmann.de",      # Kanzlei management domain
-    "https://ra-gaussmann.de",          # Kanzlei main domain
-    "https://app.hv-gaussmann.de",      # Hausverwaltung management domain
-    "https://hv-gaussmann.de",          # Hausverwaltung main domain
-    "https://scheidomat.de",            # Scheidomat domain
-]
 # Configure CORS headers
+CORS_ALLOW_ALL_ORIGINS = True           # Uncomment if you want to allow all origins (not recommended for production)
 CORS_ORIGIN_ALLOW_ALL = True            # Set to True if you want to allow all origins (not recommended for production)
 CORS_ALLOW_CREDENTIALS = True           # Allow cookies to be included in CORS requests
 CORS_ALLOW_HEADERS = list(default_headers) + [
     'X-CSRFToken',                      # Allow CSRF token header
 ]
+CORS_ALLOWED_ORIGINS = []
 # CORS_ALLOW_METHODS = [
 #     'GET',
 #     'POST',
@@ -211,20 +207,14 @@ CORS_ALLOW_HEADERS = list(default_headers) + [
 #     'OPTIONS'
 # ]                                       # Uncomment if you need to restrict methods
 CORS_ALLOW_METHODS = list(default_methods)  # Uncomment if you want to use default methods
-CORS_ALLOW_ALL_ORIGINS = True           # Uncomment if you want to allow all origins (not recommended for production)
 
 # CSRF settings
-CSRF_COOKIE_SECURE = True               # Use secure cookies for CSRF
-CSRF_COOKIE_SAMESITE = 'Lax'            # Adjust as needed for your application
+# CSRF_COOKIE_SECURE = True               # Use secure cookies for CSRF
+# CSRF_COOKIE_SAMESITE = 'Lax'            # Adjust as needed for your application
 CSRF_TRUSTED_ORIGINS = [
     'http://localhost:3000',            # Adjust this to your frontend URL
     "http://localhost:4200",            # Angular app running on localhost
-    "https://*.ra-gaussmann.de",        # Kanzlei main domain
-    "https://*.hv-gaussmann.de",        # Hausverwaltung main domain
-    "https://*.scheidomat.de",          # Scheidomat domain
 ]
-CSRF_COOKIE_SECURE = True               # Uncomment if using HTTPS in production
-CSRF_COOKIE_SAMESITE = 'Lax'            # Adjust as needed for your application
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
